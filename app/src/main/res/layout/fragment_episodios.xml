@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Episodios">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageEpisodio1"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode1"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio1"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode1" />
+
+                <TextView
+                    android:id="@+id/textEpisode1"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Title Podcast"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio2"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio1"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode2"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio2"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode2" />
+
+                <TextView
+                    android:id="@+id/textEpisode2"
+                    android:layout_width="250dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Title Podcast"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio2"
+                    app:layout_constraintTop_toBottomOf="@+id/episode1" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio3"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio2"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode3"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio3"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode3" />
+
+                <TextView
+                    android:id="@+id/textEpisode3"
+                    android:layout_width="250dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Title Podcast"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio3"
+                    app:layout_constraintTop_toBottomOf="@+id/episode2" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio4"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio3"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode4"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio4"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode4" />
+
+                <TextView
+                    android:id="@+id/textEpisode4"
+                    android:layout_width="250dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Title Podcast"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio4"
+                    app:layout_constraintTop_toBottomOf="@+id/episode3" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio5"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio4"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode5"
+                    android:layout_width="111dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio5"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode5" />
+
+                <TextView
+                    android:id="@+id/textEpisode5"
+                    android:layout_width="250dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Title Podcast"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio5"
+                    app:layout_constraintTop_toBottomOf="@+id/episode4" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio6"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio5"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode6"
+                    android:layout_width="111dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio6"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode6" />
+
+                <TextView
+                    android:id="@+id/textEpisode6"
+                    android:layout_width="250dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Title Podcast"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio6"
+                    app:layout_constraintTop_toBottomOf="@+id/episode5" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio7"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio6"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode7"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio7"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode7" />
+
+                <TextView
+                    android:id="@+id/textEpisode7"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Title Podcast"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio7"
+                    app:layout_constraintTop_toBottomOf="@+id/episode6" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio8"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio7"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode8"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio8"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode8" />
+
+                <TextView
+                    android:id="@+id/textEpisode8"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Title Podcast"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio8"
+                    app:layout_constraintTop_toBottomOf="@+id/episode7" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio9"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio8"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode9"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio9"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode9" />
+
+                <TextView
+                    android:id="@+id/textEpisode9"
+                    android:layout_width="250dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="28dp"
+                    android:text="Title Podcast"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio9"
+                    app:layout_constraintTop_toBottomOf="@+id/episode8" />
+
+                <ImageView
+                    android:id="@+id/imageEpisodio10"
+                    android:layout_width="72dp"
+                    android:layout_height="94dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio9"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+                <Button
+                    android:id="@+id/episode10"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Play/Pause"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio10"
+                    app:layout_constraintTop_toBottomOf="@+id/textEpisode10" />
+
+                <TextView
+                    android:id="@+id/textEpisode10"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="28dp"
+                    android:text="Title Podcast"
+                    app:layout_constraintStart_toEndOf="@+id/imageEpisodio10"
+                    app:layout_constraintTop_toBottomOf="@+id/episode9" />
+
+                <TextView
+                    android:id="@+id/textEpisode11"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="28dp"
+                    android:text="Title Podcast"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageEpisodio10" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </ScrollView>
+    </FrameLayout>
+
+
+</FrameLayout>
